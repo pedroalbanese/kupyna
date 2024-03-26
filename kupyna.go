@@ -7,5 +7,5 @@ import (
 type KeySizeError int
 
 func (k KeySizeError) Error() string {
-    return fmt.Sprintf("kupyna256: invalid key size %d", int(k))
+    return fmt.Sprintf("kupyna: invalid key size %d", int(k))
 }
